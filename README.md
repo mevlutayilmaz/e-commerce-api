@@ -92,3 +92,5 @@ Proje, kullanıcı kimlik doğrulaması ve yetkilendirme için JWT (JSON Web Tok
 Bu proje, temiz bir mimari ve modern teknolojiler kullanarak geliştirilmiş, güvenli ve ölçeklenebilir bir e-ticaret API'sidir. Proje, katmanlı yapısı sayesinde bakımı ve geliştirilmesi kolaydır.
 
 **Bu API'yi kullanan React projesi:** [E-Commerce UI](https://github.com/mevlutayilmaz/e-commerce-ui)
+
+**Web Scraping işlemi ile veritabanına ürünler eklenebilir:** [Web Scraping](https://github.com/mevlutayilmaz/web-scraping)
