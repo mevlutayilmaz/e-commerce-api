@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\categories\\createcategory\\createcategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\categories\\createcategory\\createcategorycommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\commands\\orders\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\commands\\orders\\createorder\\createordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFBAF27A-AF63-4B24-9E37-A837A3804A85}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFBAF27A-AF63-4B24-9E37-A837A3804A85}|Core\\ECommerceAPI.Domain\\ECommerceAPI.Domain.csproj|solutionrelative:core\\ecommerceapi.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\orders\\getallorders\\getallordersqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\orders\\getallorders\\getallordersqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\orders\\getallorder\\getallorderqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\orders\\getallorder\\getallorderqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\orders\\getallorders\\getallordersqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\orders\\getallorders\\getallordersqueryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\orders\\getallorder\\getallorderqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\orders\\getallorder\\getallorderqueryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\orders\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\orders\\getorderbyid\\getorderbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\orders\\getallorder\\getallorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\orders\\getallorder\\getallorderqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10A83E1B-0B4A-4B39-9B0A-DED554EB304C}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A83E1B-0B4A-4B39-9B0A-DED554EB304C}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\core\\ecommerceapi.application\\features\\queries\\orders\\getallorders\\getallordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1C8D72F-4DE3-46B8-8D1B-C0B08B218D8D}|Core\\ECommerceAPI.Application\\ECommerceAPI.Application.csproj|solutionrelative:core\\ecommerceapi.application\\features\\queries\\orders\\getallorders\\getallordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10A83E1B-0B4A-4B39-9B0A-DED554EB304C}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A83E1B-0B4A-4B39-9B0A-DED554EB304C}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateCategoryCommandRequest.cs",
-              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Categories\\CreateCategory\\CreateCategoryCommandRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Categories\\CreateCategory\\CreateCategoryCommandRequest.cs",
-              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Categories\\CreateCategory\\CreateCategoryCommandRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Categories\\CreateCategory\\CreateCategoryCommandRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA1wBkAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-16T09:23:00.093Z",
+              "WhenOpened": "2024-08-17T13:09:02.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Domain\\Entities\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "DocumentIndex": 7,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\ServiceRegistration.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T10:47:46.893Z",
+              "WhenOpened": "2024-08-17T13:14:49.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllOrdersQueryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryResponse.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryResponse.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryResponse.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:03:14.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetAllOrderQueryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryRequest.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryRequest.cs",
-              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryRequest.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Title": "GetOrderByIdQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetOrderById\\GetOrderByIdQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T10:47:24.244Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetAllOrderQueryResponse.cs",
-              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryResponse.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryResponse.cs",
-              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryResponse.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T10:47:12.776Z"
+              "WhenOpened": "2024-08-17T15:46:14.586Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GetAllOrderQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryHandler.cs",
-              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryHandler.cs",
-              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryHandler.cs",
-              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrder\\GetAllOrderQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Services\\OrderService.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Services\\OrderService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwB0AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T10:47:06.836Z"
+              "WhenOpened": "2024-08-17T13:14:22.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetAllOrdersQueryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryRequest.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryRequest.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryRequest.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:12:02.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateOrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Orders\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Commands\\Orders\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Commands\\Orders\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Commands\\Orders\\CreateOrder\\CreateOrderCommandHandler.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:45:12.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllOrdersQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryHandler.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryHandler.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryHandler.cs",
+              "RelativeToolTip": "Core\\ECommerceAPI.Application\\Features\\Queries\\Orders\\GetAllOrders\\GetAllOrdersQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T13:03:12.844Z",
+              "EditorCaption": ""
             }
           ]
         }

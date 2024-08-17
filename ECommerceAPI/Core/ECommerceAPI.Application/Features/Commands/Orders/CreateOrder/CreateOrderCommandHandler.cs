@@ -27,6 +27,7 @@ namespace ECommerceAPI.Application.Features.Commands.Orders.CreateOrder
                 BasketId = _basketService.GetUserActiveBasket?.Id.ToString(),
                 Address = request.Address,
                 Description = request.Description,
+                
             });
 
             return new();

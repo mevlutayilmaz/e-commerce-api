@@ -6,6 +6,6 @@ namespace ECommerceAPI.Application.Features.Queries.Products.GetAllProduct
     public class GetAllProductQueryResponse
     {
         public IQueryable<GetProductDTO> Products { get; set; }
-        public int totalCount { get; set; }
+        public int TotalCount { get; set; }
     }
 }

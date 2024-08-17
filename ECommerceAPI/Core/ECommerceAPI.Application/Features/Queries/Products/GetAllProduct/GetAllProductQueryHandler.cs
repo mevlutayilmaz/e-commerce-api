@@ -59,7 +59,7 @@ namespace ECommerceAPI.Application.Features.Queries.Products.GetAllProduct
                     Rating = p.Rating,
                     RatingCount = p.RatingCount
                 });
-            response.totalCount = await _readRepository.CountAsync(method: method);
+            response.TotalCount = await _readRepository.CountAsync(method: method);
 
             return response;
         }

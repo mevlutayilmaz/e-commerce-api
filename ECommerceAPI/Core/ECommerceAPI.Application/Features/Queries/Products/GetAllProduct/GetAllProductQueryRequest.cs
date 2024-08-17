@@ -8,6 +8,6 @@ namespace ECommerceAPI.Application.Features.Queries.Products.GetAllProduct
         public int itemCount { get; set; } = 5;
         public Guid? CategoryId { get; set; }
         public string SortBy { get; set; } = "Created Date";
-        public bool IsAscending { get; set; } = true;
+        public bool IsAscending { get; set; } = false;
     }
 }
