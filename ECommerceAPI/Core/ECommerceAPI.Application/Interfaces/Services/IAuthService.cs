@@ -6,5 +6,7 @@ namespace ECommerceAPI.Application.Interfaces.Services
     {
         Task<TokenDTO> LoginAsync(string UserNameOrEmail, string Password, int accessTokenLifeTime);
         Task<TokenDTO> RefreshTokenLoginAsync(string refreshToken);
+        Task PasswordResetAsync(string email);
+        Task<bool> VerifyResetTokenAsync(string resetToken, string userId);
     }
 }
