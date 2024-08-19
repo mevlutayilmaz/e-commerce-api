@@ -13,5 +13,6 @@ namespace ECommerceAPI.Domain.Entities
         public string Address { get; set; }
         public string OrderCode { get; set; }
         public Basket Basket { get; set; }
+        public CompletedOrder CompletedOrder { get; set; }
     }
 }

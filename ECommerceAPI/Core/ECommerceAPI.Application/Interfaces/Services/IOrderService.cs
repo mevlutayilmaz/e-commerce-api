@@ -7,6 +7,7 @@ namespace ECommerceAPI.Application.Interfaces.Services
         public Task CreateOrderAsync(CreateOrderDTO createOrder);
         public Task<OrderListDTO> GetAllOrdersAsync(int pageCount, int itemCount);
         public Task<SingleOrderDTO> GetOrderByIdAsync(string id);
+        public Task<(bool, CompletedOrderDTO)> CompleteOrderAsync(string id);
 
     }
 }

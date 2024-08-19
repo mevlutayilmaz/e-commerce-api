@@ -1,4 +1,5 @@
-﻿using ECommerceAPI.Application.Interfaces.Services;
+﻿using ECommerceAPI.Application.DTOs.Orders;
+using ECommerceAPI.Application.Interfaces.Services;
 using Microsoft.Extensions.Configuration;
 using System.Net;
 using System.Net.Mail;
@@ -52,9 +53,43 @@ namespace ECommerceAPI.Infrastructure.Services
             await SendMailAsync(to, "Şifre Yenileme Talebi", mail.ToString());
         }
 
-        public Task SendCompletedOrderMailAsync(string to, string orderCode, DateTime orderDate, string userName)
+        public async Task SendCompletedOrderMailAsync(string to, CompletedOrderDTO dto)
         {
-            throw new NotImplementedException();
+            StringBuilder mail = new();
+            mail.Append($"Merhaba {dto.UserName},<br><br>Siparişiniz başarıyla oluşturulmuştur.<br>Sipariş Detayları:<br><br>");
+            mail.Append($"<table style=\"border-collapse: collapse; width: 100%;\">");
+            mail.Append($"<thead>");
+            mail.Append($"<tr style=\"background-color: #f2f2f2;\">");
+            mail.Append($"<th style=\"text-align: left; padding: 8px;\">Ürün Resmi</th>");
+            mail.Append($"<th style=\"text-align: left; padding: 8px;\">Ürün Adı</th>");
+            mail.Append($"<th style=\"text-align: left; padding: 8px;\">Adet</th>");
+            mail.Append($"<th style=\"text-align: left; padding: 8px;\">Fiyat</th>");
+            mail.Append($"</tr>");
+            mail.Append($"</thead>");
+            mail.Append($"<tbody>");
+
+            decimal totalPrice = 0;
+            foreach ( var item in dto.BasketItems)
+            {
+                totalPrice += item.Product.Price * item.Quantity;
+                mail.Append($"<tr>");
+                mail.Append($"<td style=\"text-align: left; padding: 8px;\"><img src=\"{item.Product.ImageUrl}\" alt=\"{item.Product.Name}\" width=\"50\" height=\"50\"></td>");
+                mail.Append($"<td style=\"text-align: left; padding: 8px;\">{item.Product.Name}</td>");
+                mail.Append($"<td style=\"text-align: left; padding: 8px;\">{item.Quantity}</td>");
+                mail.Append($"<td style=\"text-align: left; padding: 8px;\">{item.Product.Price.ToString("N2")} TL</td>");
+                mail.Append($"</tr>");
+            }
+
+            mail.Append($"</tbody>");
+            mail.Append($"</table>");
+
+            mail.Append($"<br><p><strong>Toplam Fiyat: {totalPrice.ToString("N2")} TL</strong></p><br>");
+
+            mail.Append($"<br><br>Sipariş Kodu: #{dto.OrderCode}<br>");
+            mail.Append($"Sipariş Tarihi: {dto.OrderDate}<br><br>");
+            mail.Append($"Saygılarımızla...<br><br><br>E-Commerce");
+
+            await SendMailAsync(to, "Siparişiniz Oluşturuldu", mail.ToString());
         }
     }
 }
