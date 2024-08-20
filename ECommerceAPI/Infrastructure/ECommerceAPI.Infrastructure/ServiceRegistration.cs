@@ -12,6 +12,7 @@ namespace ECommerceAPI.Infrastructure
         {
             collection.AddScoped<ITokenHandler, TokenHandler>();
             collection.AddScoped<IMailService, MailService>();
+            collection.AddScoped<IApplicationService, ApplicationService>();
         }
     }
 }

@@ -1,4 +1,7 @@
-﻿using ECommerceAPI.Application.Features.Commands.Products.CreateProduct;
+﻿using ECommerceAPI.Application.Consts;
+using ECommerceAPI.Application.CustomAttribute;
+using ECommerceAPI.Application.Enums;
+using ECommerceAPI.Application.Features.Commands.Products.CreateProduct;
 using ECommerceAPI.Application.Features.Commands.Products.CreateProducts;
 using ECommerceAPI.Application.Features.Commands.Products.RemoveProduct;
 using ECommerceAPI.Application.Features.Commands.Products.UpdateProduct;
@@ -13,7 +16,6 @@ namespace ECommerceAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize(AuthenticationSchemes = "Admin")]
     public class ProductsController : ControllerBase
     {
         readonly IMediator _mediator;
@@ -47,6 +49,7 @@ namespace ECommerceAPI.API.Controllers
 
         [HttpPost("[action]")]
         [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Products, ActionType = ActionType.Writing, Definition = "Create Product")]
         public async Task<IActionResult> CreateProduct(CreateProductCommandRequest request)
         {
             CreateProductCommandResponse response = await _mediator.Send(request);
@@ -62,6 +65,7 @@ namespace ECommerceAPI.API.Controllers
 
         [HttpPut("[action]")]
         [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Products, ActionType = ActionType.Updating, Definition = "Update Product")]
         public async Task<IActionResult> UpdateProduct (UpdateProductCommandRequest request)
         {
             UpdateProductCommandResponse response = await _mediator.Send(request);
@@ -70,6 +74,7 @@ namespace ECommerceAPI.API.Controllers
 
         [HttpDelete("[action]/{Id}")]
         [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Products, ActionType = ActionType.Deleting, Definition = "Remove Product")]
         public async Task<IActionResult> RemoveProduct([FromRoute] RemoveProductCommandRequest request)
         {
             RemoveProductCommandResponse response = await _mediator.Send(request);

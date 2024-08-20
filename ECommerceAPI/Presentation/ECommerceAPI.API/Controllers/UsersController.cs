@@ -1,10 +1,12 @@
-﻿using ECommerceAPI.Application.Features.Commands.AppUsers.CreateUser;
+﻿using ECommerceAPI.Application.Consts;
+using ECommerceAPI.Application.CustomAttribute;
+using ECommerceAPI.Application.Enums;
+using ECommerceAPI.Application.Features.Commands.AppUsers.CreateUser;
 using ECommerceAPI.Application.Features.Commands.AppUsers.RemoveUser;
 using ECommerceAPI.Application.Features.Commands.AppUsers.UpdatePassword;
 using ECommerceAPI.Application.Features.Queries.AppUsers.GetAllUsers;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECommerceAPI.API.Controllers
@@ -22,6 +24,7 @@ namespace ECommerceAPI.API.Controllers
 
         [HttpGet]
         [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Users, ActionType = ActionType.Reading, Definition = "Get All Users")]
         public async Task<IActionResult> GetAllUsers([FromQuery] GetAllUsersQueryRequest request)
         {
             GetAllUsersQueryReponse response = await _mediator.Send(request);
@@ -37,6 +40,7 @@ namespace ECommerceAPI.API.Controllers
 
         [HttpDelete("{Id}")]
         [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Users, ActionType = ActionType.Deleting, Definition = "Remove User")]
         public async Task<IActionResult> RemoveUser([FromRoute] RemoveUserCommandRequest request)
         {
             RemoveUserCommandResponse response = await _mediator.Send(request);
