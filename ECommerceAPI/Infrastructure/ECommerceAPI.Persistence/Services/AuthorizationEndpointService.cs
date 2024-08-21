@@ -65,11 +65,19 @@ namespace ECommerceAPI.Persistence.Services
                     ActionType = action.ActionType,
                     HttpType = action.HttpType,
                     Definition = action.Definition,
-                    Menu = _menu,
+                    MenuId = _menu.Id,
                 };
 
                 await _endpointsWriteRepository.AddAsync(endpoint);
-                await _endpointsWriteRepository.SaveAsync();
+                try
+                {
+                    await _endpointsWriteRepository.SaveAsync();
+
+                }
+                catch (Exception ex)
+                {
+
+                }
             }
 
             foreach (var role in endpoint.Roles)

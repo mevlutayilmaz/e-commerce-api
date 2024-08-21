@@ -10,5 +10,8 @@ namespace ECommerceAPI.Application.Interfaces.Services
         Task<UserListDTO> GetAllUsersAsync(int pageCount, int itemCount);
         Task RemoveUserAsync(string Id);
         Task UpdatePasswordAsync(string userId,  string resetToken, string newPassword);
+        Task AssignRoleToUserAsync(string userId, string[] roles);
+        Task<IList<string>> GetRolesToUserAsync(string userIdOrName);
+        Task<bool> HasRolePermissionToEndpointAsync(string name, string code);
     }
 }

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\filters\\rolepermissionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\filters\\rolepermissionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\controllers\\authorizationendpointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\controllers\\authorizationendpointscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{10A83E1B-0B4A-4B39-9B0A-DED554EB304C}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10A83E1B-0B4A-4B39-9B0A-DED554EB304C}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{10A83E1B-0B4A-4B39-9B0A-DED554EB304C}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\infrastructure\\ecommerceapi.persistence\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10A83E1B-0B4A-4B39-9B0A-DED554EB304C}|Infrastructure\\ECommerceAPI.Persistence\\ECommerceAPI.Persistence.csproj|solutionrelative:infrastructure\\ecommerceapi.persistence\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|c:\\users\\yilma\\desktop\\ecommerce\\ecommerceapi\\presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2B1790-9F8F-4478-B6D7-7C593DFF32DF}|Presentation\\ECommerceAPI.API\\ECommerceAPI.API.csproj|solutionrelative:presentation\\ecommerceapi.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +26,41 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthorizationEndpointsController.cs",
-              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\AuthorizationEndpointsController.cs",
-              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Controllers\\AuthorizationEndpointsController.cs",
-              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\AuthorizationEndpointsController.cs",
-              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Controllers\\AuthorizationEndpointsController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCEAAAAFAAAA",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Program.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Program.cs",
+              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Program.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAkwHoAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T18:09:35.854Z",
+              "WhenOpened": "2024-08-21T11:52:17.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RolesController.cs",
-              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\RolesController.cs",
-              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Controllers\\RolesController.cs",
-              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Controllers\\RolesController.cs",
-              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Controllers\\RolesController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAiwDAAAAAJAAAA",
+              "Title": "RolePermissionFilter.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Filters\\RolePermissionFilter.cs",
+              "RelativeDocumentMoniker": "Presentation\\ECommerceAPI.API\\Filters\\RolePermissionFilter.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Presentation\\ECommerceAPI.API\\Filters\\RolePermissionFilter.cs",
+              "RelativeToolTip": "Presentation\\ECommerceAPI.API\\Filters\\RolePermissionFilter.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T17:40:21.38Z",
+              "WhenOpened": "2024-08-21T11:45:04.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoleService.cs",
-              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Services\\RoleService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Services\\RoleService.cs",
-              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Services\\RoleService.cs",
-              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Services\\RoleService.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAsAAAARAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerceAPI.Persistence\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\yilma\\Desktop\\ECommerce\\ECommerceAPI\\Infrastructure\\ECommerceAPI.Persistence\\Services\\UserService.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerceAPI.Persistence\\Services\\UserService.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAiwIcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T17:50:23.767Z",
+              "WhenOpened": "2024-08-21T09:30:58.288Z",
               "EditorCaption": ""
             }
           ]
