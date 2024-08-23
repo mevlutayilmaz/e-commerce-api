@@ -2,8 +2,8 @@
 using ECommerceAPI.Application.Helpers;
 using ECommerceAPI.Application.Interfaces.Services;
 using ECommerceAPI.Application.Repositories;
-using ECommerceAPI.Domain.Entities;
 using ECommerceAPI.Domain.Entities.Identity;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,12 +12,14 @@ namespace ECommerceAPI.Persistence.Services
     public class UserService : IUserService
     {
         readonly UserManager<AppUser> _userManager;
-        readonly IReadRepository<Endpoint> _endpointReadRepository;
+        readonly IReadRepository<Domain.Entities.Endpoint> _endpointReadRepository;
+        readonly IHttpContextAccessor _httpContextAccessor;
 
-        public UserService(UserManager<AppUser> userManager, IReadRepository<Endpoint> endpointReadRepository)
+        public UserService(UserManager<AppUser> userManager, IReadRepository<Domain.Entities.Endpoint> endpointReadRepository, IHttpContextAccessor httpContextAccessor)
         {
             _userManager = userManager;
             _endpointReadRepository = endpointReadRepository;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<CreateUserResponseDTO> CreateAsync(CreateUserDTO user)
@@ -30,7 +32,11 @@ namespace ECommerceAPI.Persistence.Services
                 UserName = user.UserName
             }, user.Password);
 
-            if (result.Succeeded)
+            var appUser = await _userManager.FindByNameAsync(user.UserName);
+
+            IdentityResult identityResult = await _userManager.AddToRoleAsync(appUser, "Customer");
+
+            if (result.Succeeded && identityResult.Succeeded)
                 return new()
                 {
                     Succeeded = result.Succeeded,
@@ -128,7 +134,7 @@ namespace ECommerceAPI.Persistence.Services
             var userRoles = await GetRolesToUserAsync(name);
             if (!userRoles.Any()) return false;
 
-            Endpoint?  endpoint = await _endpointReadRepository.Table
+            Domain.Entities.Endpoint?  endpoint = await _endpointReadRepository.Table
                 .Include(e => e.Roles)
                 .FirstOrDefaultAsync(e => e.Code == code);
 
@@ -138,6 +144,28 @@ namespace ECommerceAPI.Persistence.Services
 
             return userRoles.Any(userRole => endpointRoles.Contains(userRole));
 
+        }
+
+        public async Task<IList<string>> GetMenusOfUserRolesAsync()
+        {
+            var username = _httpContextAccessor?.HttpContext?.User?.Identity?.Name;
+
+            if (!string.IsNullOrEmpty(username))
+            {
+                var roles = await GetRolesToUserAsync(username);
+
+                if(roles.Any())
+                    return await _endpointReadRepository.Table
+                        .Include(e => e.Roles)
+                        .Include(e => e.Menu)
+                        .Where(e => e.Roles.Any(r => roles.Contains(r.Name)) && e.Definition != "Create Order" && e.Definition != "Get Menus Of User Roles" && e.Menu.Name != "Baskets")
+                        .Select(e => e.Menu.Name)
+                        .Distinct()
+                        .ToListAsync();
+
+                return new List<string>();
+            } 
+            return new List<string>();
         }
     }
 }

@@ -6,6 +6,7 @@ using ECommerceAPI.Application.Features.Commands.AppUsers.CreateUser;
 using ECommerceAPI.Application.Features.Commands.AppUsers.RemoveUser;
 using ECommerceAPI.Application.Features.Commands.AppUsers.UpdatePassword;
 using ECommerceAPI.Application.Features.Queries.AppUsers.GetAllUsers;
+using ECommerceAPI.Application.Features.Queries.AppUsers.GetMenusOfUserRoles;
 using ECommerceAPI.Application.Features.Queries.AppUsers.GetRolesToUser;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -71,6 +72,15 @@ namespace ECommerceAPI.API.Controllers
         public async Task<IActionResult> AssignRoleToUser(AssignRoleToUserCommandRequest request)
         {
             AssignRoleToUserCommandResponse response = await _mediator.Send(request);
+            return Ok(response);
+        }
+
+        [HttpGet("[action]")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+        [AuthorizeDefinition(Menu = AuthorizeDefinitionConstants.Users, ActionType = ActionType.Reading, Definition = "Get Menus Of User Roles")]
+        public async Task<IActionResult> GetMenusOfUserRoles([FromQuery] GetMenusOfUserRolesQueryRequest request)
+        {
+            GetMenusOfUserRolesQueryResponse response = await _mediator.Send(request);
             return Ok(response);
         }
     }
